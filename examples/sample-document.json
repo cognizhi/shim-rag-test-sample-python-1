@@ -1,0 +1,12 @@
+{
+  "id": "doc-1001",
+  "title": "Quarterly Risk Summary",
+  "sourceId": "src-hr-shared-drive",
+  "tags": ["finance", "rag-test", "baseline"],
+  "version": "1.0",
+  "contentType": "application/pdf",
+  "metadata": {
+    "department": "Risk",
+    "owner": "ops-team"
+  }
+}

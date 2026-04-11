@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ingestion-utils"
+version = "1.0.0"
+description = "Seeder and integration utility for the Document Ingestion ecosystem"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov",
+]
+
+[project.scripts]
+ingestion-utils = "ingestion_utils.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ingestion_utils*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
