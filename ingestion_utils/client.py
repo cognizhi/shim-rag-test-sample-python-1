@@ -64,6 +64,7 @@ class IngestionClient:
         resp.raise_for_status()
         return resp.json()
 
+    
     def list_documents(self) -> list:
         """GET /documents — list all Documents."""
         resp = self._session.get(f"{self.base_url}/documents")
