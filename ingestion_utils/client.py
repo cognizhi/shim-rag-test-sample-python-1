@@ -28,6 +28,7 @@ class IngestionClient:
         self._session = requests.Session()
         self._session.headers.update({"Content-Type": "application/json"})
 
+    
     # ------------------------------------------------------------------ #
     # DocumentSource endpoints                                             #
     # ------------------------------------------------------------------ #
