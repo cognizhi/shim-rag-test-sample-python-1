@@ -9,6 +9,7 @@ All functions raise requests.HTTPError on non-2xx responses.
 import requests
 
 DEFAULT_JAVA1_URL = "http://localhost:8081"
+
 DEFAULT_JAVA2_URL = "http://localhost:8082"
 
 
