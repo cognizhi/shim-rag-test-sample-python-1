@@ -5,6 +5,7 @@ and the Reporting / Validation API (java-2).
 All functions raise requests.HTTPError on non-2xx responses.
 """
 
+
 import requests
 
 DEFAULT_JAVA1_URL = "http://localhost:8081"
