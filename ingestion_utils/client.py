@@ -21,6 +21,7 @@ class IngestionClient:
     - IngestionJob  (ProcessingStatus: PENDING / RUNNING / COMPLETED / FAILED)
     """
 
+    
     def __init__(self, base_url: str = DEFAULT_JAVA1_URL):
         self.base_url = base_url.rstrip("/")
         self._session = requests.Session()
